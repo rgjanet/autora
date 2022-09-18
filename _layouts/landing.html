@@ -2,28 +2,40 @@
 
 <html lang="es">
   <head>
-    <title>Falsaria</title>
     <link rel="icon" type="image/x-icon" href="https://www.rgjanet.com/images/favicon.png">
-    <meta
-      property="og:image"
-      content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/c24dfb6f-afc1-4812-9df0-1845c9346f8a/7adc7bf0-65eb-4c29-aaed-c8e240b9463b?org_if_sml=1"
-    />
-    <meta
-      property="og:description"
-      content="Falsaria toma las canciones más populares de la salsa y las transforma en una serie de cuentos que entrelazan temas como el desamor y la mentira."
-    />
-    <meta property="og:title" content="Falsaria" />
-    <meta
-      name="description"
-      content="Falsaria toma las canciones más populares de la salsa y las transforma en una serie de cuentos que entrelazan temas como el desamor y la mentira."
-    />
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="utf-8" />
-    <meta property="twitter:card" content="summary_large_image" />
+        <!-- Open Graphs -->
+    
+    {% if page.is_post %}
+  {% assign type = "article" %}
+{% else %}
+  {% assign type = "website" %}
+{% endif %}
+  <!-- http://ogp.me/ -->
+  <meta property="og:type" content="{{ type }}" />
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 140 }}{% else %}{{ site.description }}{% endif %}" />
+  {% if page.image %}
+  <meta property="og:image" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}{{ page.image.path }}" />
+  <meta property="og:image:width" content="{{ page.image.width }}" />
+  <meta property="og:image:height" content="{{ page.image.height }}" />
+  {% endif %}
+  {% if page.is_post %}
+  <meta property="og:site_name" content="{{ site.title }}" />
+  {% endif %}
+    
+    <!-- https://dev.twitter.com/cards/overview -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@{{ site.twitter_username }}" />
+  <meta name="twitter:creator" content="@{{ site.twitter_username }}" />
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 140 }}{% else %}{{ site.description }}{% endif %}" />
+  {% if page.image %}
+  <meta name="twitter:image" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}{{ page.image.path }}" />
+  {% endif %}
+    
+    
     <style data-tag="reset-style-sheet">
       html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6 {  margin: 0;  padding: 0;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
     </style>
