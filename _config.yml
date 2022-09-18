@@ -21,7 +21,7 @@
 title: Janet Guardiola
 email: hola@janetguardiola.com
 description: Un cortejo clandestino, un cambio inesperado, una lápida vacía, un escenario iluminado, la falta de dinero, un rastro de sangre en el suelo, una fotografía a medias y los pasos aterradores de una figura elusiva.
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://janetguardiola.com"
 twitter_username: rgjanet
 instagram_username:  jguardiolaescribe
