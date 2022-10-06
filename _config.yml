@@ -20,9 +20,10 @@
 
 title: Janet Guardiola
 email: hola@janetguardiola.com
-description: Un cortejo clandestino, un cambio inesperado, una lápida vacía, un escenario iluminado, la falta de dinero, un rastro de sangre en el suelo, una fotografía a medias y los pasos aterradores de una figura elusiva.
+description: >- # this means to ignore newlines until "baseurl:"
+Siguiendo el ritmo de los maestros de la salsa, Falsaria toma algunas de las canciones más populares del género y las transforma en una serie de cuentos que entrelazan temas tan familiares como el desamor, la mentira y la ineludible realidad con los personajes que las padecen.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://janetguardiola.com"
+url: "https://janetguardiola.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rgjanet
 instagram_username:  jguardiolaescribe
 
@@ -38,6 +39,7 @@ google_analytics_id: 318877589
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
