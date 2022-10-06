@@ -2,40 +2,13 @@
 
 <html lang="es">
   <head>
-    <title>Janet Guardiola</title>
+    <title>Falsaria</title>
+    {% seo %}
+    
     <link rel="icon" type="image/x-icon" href="https://www.rgjanet.com/images/favicon.png">
 
-        <!-- Open Graphs -->
-    
-    {% if page.is_post %}
-  {% assign type = "article" %}
-{% else %}
-  {% assign type = "website" %}
-{% endif %}
-  <!-- http://ogp.me/ -->
-  <meta property="og:type" content="{{ type }}" />
-  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
-  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 140 }}{% else %}{{ site.description }}{% endif %}" />
-  {% if page.image %}
-  <meta property="og:image" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}{{ page.image.path }}" />
-  <meta property="og:image:width" content="{{ page.image.width }}" />
-  <meta property="og:image:height" content="{{ page.image.height }}" />
-  {% endif %}
-  {% if page.is_post %}
-  <meta property="og:site_name" content="{{ site.title }}" />
-  {% endif %}
-    
-    <!-- https://dev.twitter.com/cards/overview -->
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@{{ site.twitter_username }}" />
-  <meta name="twitter:creator" content="@{{ site.twitter_username }}" />
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 140 }}{% else %}{{ site.description }}{% endif %}" />
-  {% if page.image %}
-  <meta name="twitter:image" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}{{ page.image.path }}" />
-  {% endif %}
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
     
     <style data-tag="reset-style-sheet">
       html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6 {  margin: 0;  padding: 0;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
@@ -83,7 +56,7 @@
       background-color: #fff
       }
     </style>
-    <link rel="stylesheet" href="https://www.janetguardiola.com/style.css" />
+    <link rel="stylesheet" href="/style.css" />
     <a name="inicio"></a>
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -100,7 +73,7 @@
 
   <body>
     <div>
-      <link href="https://www.janetguardiola.com/home.css" rel="stylesheet" />
+      <link href="/home.css" rel="stylesheet" />
 
       <div class="home-container">
         <header
@@ -114,19 +87,19 @@
                 class="navigation-links-nav navigation-links-root-class-name17"
               >
                 <span class="navigation-links-text navigation-Link">
-                  <span><a href="https://www.janetguardiola.com">Inicio</a></span>
+                  <span><a href="https://libros.rgjanet.com">Inicio</a></span>
                 </span>
                 <span class="navigation-links-text1 navigation-Link">
-                  <span><a href="https://www.janetguardiola.com/#libros">Falsaria</a></span>
+                  <span><a href="https://libros.rgjanet.com/#libros">Falsaria</a></span>
                 </span>
                 <span class="navigation-links-text1 navigation-Link">
-                  <span><a href="https://www.janetguardiola.com/blog">Blog</a></span>
+                  <span><a href="/blog">Blog</a></span>
                 </span>
                 <span class="navigation-links-text2 navigation-Link">
                   <span><a href="https://drive.google.com/drive/folders/15Qn50JGEmUG4uzVKScql8to-sJ20CmZ4?usp=sharing">Press Kit</a></span>
                 </span>
                 <span class="navigation-links-text3 navigation-Link">
-                  <span><a href="https://www.janetguardiola.com/#acerca">Acerca</a></span>
+                  <span><a href="https://libros.rgjanet.com/#acerca">Acerca</a></span>
                 </span>
               </nav>
               <a
@@ -162,19 +135,19 @@
                   class="navigation-links-nav navigation-links-root-class-name18"
                 >
                   <span class="navigation-links-text navigation-Link">
-                    <span><a href="https://www.janetguardiola.com/#inicio">Inicio</a></span>
+                    <span><a href="#inicio">Inicio</a></span>
                   </span>
                   <span class="navigation-links-text1 navigation-Link">
-                    <span><a href="https://www.janetguardiola.com/#libros">Falsaria</a></span>
+                    <span><a href="libros">Falsaria</a></span>
                   </span>
                   <span class="navigation-links-text1 navigation-Link">
-                    <span><a href="https://www.janetguardiola.com/blog">Blog</a></span>
+                    <span><a href="/blog">Blog</a></span>
                   </span>
                   <span class="navigation-links-text2 navigation-Link">
                     <span><a href="https://drive.google.com/drive/folders/15Qn50JGEmUG4uzVKScql8to-sJ20CmZ4?usp=sharing">Press Kit</a></span>
                   </span>
                   <span class="navigation-links-text3 navigation-Link">
-                    <span><a href="https://www.janetguardiola.com/#acerca">Acerca</a></span>
+                    <span><a href="#acerca">Acerca</a></span>
                   </span>
                 </nav>
                 <button class="button-secondary button button-md">
