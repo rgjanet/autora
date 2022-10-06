@@ -4,10 +4,11 @@ title:  ¿De dónde surge «Falsaria»?
 date:   2022-08-22 23:51:38 -0400
 author: Janet Guardiola
 description: Nada como presentar tu muchachito literario en tu casa, Z-93 FM, con las personas que te inspiraron a escribirlo. Escucha la entrevista aquí.
-image: https://janetguardiola.com/images/FalsariaZ93.png
+image: https://www.janetguardiola.com/images/FalsariaZ93.png
 categories: falsaria
 ---
-<img src="https://janetguardiola.com/images/FalsariaZ93.png">
+
+![Presentación de Falsaria en Z-93 FM](https://www.janetguardiola.com/images/FalsariaZ93.png)
 
 Nada como presentar tu muchachito literario en tu casa, Z-93 FM, con las personas que te inspiraron a escribirlo. Escucha la entrevista aquí.
 
