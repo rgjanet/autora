@@ -7,7 +7,7 @@ description: Nada como presentar tu muchachito literario en tu casa, Z-93 FM, c
 image: /images/FalsariaZ93.png
 categories: falsaria
 ---
-<img src="/images/FalsariaZ93.png">
+<img src="https://janetguardiola.com/images/FalsariaZ93.png">
 
 Nada como presentar tu muchachito literario en tu casa, Z-93 FM, con las personas que te inspiraron a escribirlo. Escucha la entrevista aquí.
 
