@@ -8,6 +8,8 @@ image: https://www.janetguardiola.com/images/FalsariaZ93.png
 categories: falsaria
 ---
 
+![Presentación de «Falsaria» en Z-93](https://www.janetguardiola.com/images/FalsariaZ93.png)
+
 Nada como presentar tu muchachito literario en tu casa, Z-93 FM, con las personas que te inspiraron a escribirlo. Escucha la entrevista aquí.
 
 <br>
