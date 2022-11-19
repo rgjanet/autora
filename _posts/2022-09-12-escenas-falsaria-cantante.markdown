@@ -1,14 +1,13 @@
 ---
 layout: post
-title:  Escenas de Falsaria, El Cantante
+title:  Escenas de «Falsaria», El Cantante
 date:   2022-09-12 08:51:38 -0400
 author: Janet Guardiola
-description: Nada como presentar tu muchachito literario en tu casa, Z-93 FM, con las personas que te inspiraron a escribirlo. Escucha la entrevista aquí.
-image: http://libros.rgjanet.com/public/playground_assets/falsariaz93.png
+description: Una de las escenas que más disfruté escribir para «Falsaria» se encuentra en el cuento El Cantante.
 categories: falsaria
 ---
 
-Una de las escenas que más disfruté escribir para <i>Falsaria</i> se encuentra en el cuento <i>El Cantante</i>. Aquí se las comparto.
+Una de las escenas que más disfruté escribir para <i>«Falsaria»</i> se encuentra en el cuento <i>El Cantante</i>. Aquí se las comparto.
 
 <br>
 
