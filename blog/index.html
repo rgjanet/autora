@@ -6,7 +6,7 @@ title: Blog
 <div class="home-blog">
     {% for post in paginator.posts %}
       <h2><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
-    <p style="padding-bottom: 15px;">{{ post.content | strip_html | truncatewords:75 }}</p>
+    <p style="padding-bottom: 20px;">{{ post.content | strip_html | truncatewords:50 }}</p>
     {% endfor %}
   </div>
 
