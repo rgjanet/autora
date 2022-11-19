@@ -21,7 +21,6 @@
 title: Janet Guardiola
 email: hola@janetguardiola.com
 description: >- # this means to ignore newlines until "baseurl:"
-Siguiendo el ritmo de los maestros de la salsa, Falsaria toma algunas de las canciones más populares del género y las transforma en una serie de cuentos que entrelazan temas tan familiares como el desamor, la mentira y la ineludible realidad con los personajes que las padecen.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://janetguardiola.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rgjanet
