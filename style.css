@@ -344,5 +344,9 @@
       padding: 16px;
     }
   }
+.responsive {
+  width: 100%;
+  height: auto;
+}
 
  
