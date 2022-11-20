@@ -10,6 +10,8 @@ categories: falsaria
 
 <img src="https://www.janetguardiola.com/images/FalsariaZ93.png" class="responsive">
 
+<br>
+
 Nada como presentar tu muchachito literario en tu casa, Z-93 FM, con las personas que te inspiraron a escribirlo. Escucha la entrevista aquí.
 
 <br>
