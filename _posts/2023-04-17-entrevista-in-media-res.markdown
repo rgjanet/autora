@@ -3,7 +3,7 @@ layout: post
 title:  Falsaria en In Media Res
 date:   2023-04-17 12:51:38 -0400
 author: Janet Guardiola
-description: Nada como presentar tu muchachito literario en tu casa, Z-93 FM, con las personas que te inspiraron a escribirlo.
+description: El escritor, profesor y director de tesis de Falsaria, José Borges, y yo chachareamos sobre este muchachito literario en la nueva temporada del podcast, In Media Res.
 image: https://www.janetguardiola.com/images/cubierta-1000w.png
 categories: falsaria
 ---
@@ -12,7 +12,7 @@ categories: falsaria
 
 <br>
 
-El escritor, profesor y director de mi tesis, José Borges, y yo chachareamos sobre Falsaria en la nueva temporada del podcast, In Media Res.
+El escritor, profesor y director de tesis de Falsaria, José Borges, y yo chachareamos sobre este muchachito literario en la nueva temporada del podcast, In Media Res.
 
 <br>
 
