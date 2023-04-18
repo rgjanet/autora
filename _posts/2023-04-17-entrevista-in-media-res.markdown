@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Falsaria en In Media Res
-date:   2023-04-17 23:51:38 -0400
+date:   2023-04-17 12:51:38 -0400
 author: Janet Guardiola
 description: Nada como presentar tu muchachito literario en tu casa, Z-93 FM, con las personas que te inspiraron a escribirlo.
 image: https://www.janetguardiola.com/images/cubierta-1000w.png
